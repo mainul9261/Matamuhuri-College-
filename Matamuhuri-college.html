@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    *{
+    margin:0px;
+    padding:0px;
+}
+.hedline-m{
+    display:flex;
+    justify-content:space-between;
+    font-size:22px;
+    align-items:center;
+    background-color:#0c096e;
+    color:white;
+    border:none;
+    border-bottom:1px solid white;=lkn
+    width:100%;
+    height:70px;
+}
+.hedline-m h2{
+    margin-left:70px;
+    font-size:22px;
+}
+.hedline pre{
+    margin-right:100px;
+    font-size:18px;
+    font-weight:1000;
+}
+.hedline{
+    background-color:#0c096e;
+    padding-bottom:15px;
+}
+.hedline button{
+    display:flex;
+    justify-content:center;
+    color:black;
+    background-color:white;
+    width:150px;
+    height:50px;
+    border:none;
+    align-items:center;
+    font-size:22px;
+    font-weight:600;
+    position:relative;
+    margin-left:40%;
+}
+
+.navbar ul li:hover{
+    background-color:white;
+    color:navy;
+    transition:all 1s ease;
+    font-weight:600;
+}
+.navbar{
+				 position: sticky;
+    position: sticky;
+}
+.logo{
+    width:130px;
+    height:130px;
+    float:left;
+    margin-left:100px;
+    margin-top:2%;
+}
+.collegegait{
+    float:left;
+    width:350px;
+    height:300px;
+    margin-top:2%;
+}
+.frem-img{
+    width:100%;
+    height:500px;
+    background-repeat:no-repeat;
+    background-image:url("mainul/s.png");
+    background-size:100% 100%;
+    animation:changeImage 20s linear infinite;
+    
+
+}
+@keyframes changeImage{
+    0%{
+        background-image: url("mainul/s.png")
+    }
+    0%{
+        background-image: url("mainul/s.png")
+    }
+    25%{
+        background-image: url("mainul/s1.png")
+    }
+    50%{
+        background-image: url("mainul/s2.png")
+    }
+    75%{
+        background-image: url("mainul/s3.png")
+    }
+    100%{
+        background-image: url("mainul/s4.png")
+    }
+   
+}
+.picture{
+    margin-top:2%;
+    align-items:center;
+    text-align:center;
+    width:100%;
+    height:100%;
+    
+    
+}
+.picture img{
+    width:300px;
+    height:300px;
+    padding-bottom:7%;
+    background-color:white;
+    border:none;
+    box-shadow:2px 2px 5px black;
+    
+    
+   
+    
+}
+.picture p{
+    bottom:70px;
+    font-size:22px;
+    position:relative;
+    
+}
+.event-s{
+    width:100%;
+    height:60px;
+    background:navy;
+    color:white;
+    text-align:center;
+    
+    
+}
+.event-s h2{
+   line-height:50px;
+   font-size:40px;
+   font-weight:700;
+}
+
+.event{
+    width:100%;
+    height:400px;
+    background:#cccccc;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    font-size:25px;
+    
+}
+.grid{
+    Width:400px;
+    Height:300px;
+    Border:1px Solid Black;
+    Background-color:white;
+    Float:Left;
+    padding-bottom:70px;
+    box-shadow:3px 3px 5px black;
+}
+.grid p{
+    text-align:center;
+    font-size:28px;
+    font-weight:600;
+}
+.grid1{
+    Width:400px;
+    Height:300px;
+    Border:1px Solid Black;
+    Background-color:white;
+    Float:Left;
+    padding-bottom:70px;
+    box-shadow:3px 3px 5px black;
+}
+.grid1 p{
+    text-align:center;
+    font-size:28px;
+    font-weight:600;
+}
+.grid img{
+    width:400px;
+    height:300px;
+}
+.grid1 img{
+    width:400px;
+    height:300px;
+}
+
+.event-t{
+    width:100%;
+    height:400px;
+    background:#cccccc;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    font-size:25px;
+    
+}
+.grid3{
+    Width:500px;
+    Height:300px;
+    Border:1px Solid Black;
+    Background-color:white;
+    padding-bottom:70px;
+    box-shadow:3px 3px 5px black;
+}
+.grid3 p{
+    text-align:center;
+    font-size:28px;
+    font-weight:600;
+}
+.grid3 img{
+    width:500px;
+    height:300px;
+}
+
+
+/*-------------login from-------------*/
+
+.login-f{
+    width:450px;
+    height:500px;
+    border:2.5px solid green;
+    border-radius:20px;
+    margin-left:25%;
+    margin-top:10%;
+    margin-bottom:10%;
+    text-align:center;
+    
+}
+.logo-f{
+    width:130px;
+    height:100px;
+    margin-top:2%;
+}
+
+.login-f h3{
+    
+    font-size:25px;
+}
+.in{
+    margin-top:3%;
+}
+.in input{
+    width:300px;
+    height:40px;
+    outline:none;
+    border:none;
+    font-size:16px;
+    border-bottom:1.50px solid #616161;
+}
+.in input:hover{
+    width:300px;
+    height:40px;
+    outline:none;
+    border:none;
+    font-size:18px;
+    border-bottom:2px solid #ce00ff;
+    transition:0.30s all ease;
+}
+.checkbox{
+    width:200px;
+    height:20px;
+    padding:20px 5px 20px;
+    display:flex;
+    align-items:center;
+    margin-left:15%;
+}
+
+.submit input{
+    width:300px;
+    height:40px;
+    outline:none;
+    color:white;
+    border:none;
+    font-size:20px;
+    font-weight:500;
+    background-color:#a400ff;
+    border-radius:10px;
+    box-shadow:-1px -1px 5px #0018ff, 1px 1px 5px #ff009d;
+} 
+.submit input:hover{
+    width:290px;
+    height:37px;
+    outline:none;
+    border:none;
+    font-size:18px;
+    font-weight:500;
+    transition:0.30s ease-out;
+    border-radius:10px;
+    color:white;
+    box-shadow:-1px -1px 5px #ff009d, 1px 1px 5px #0018ff;
+}
+
+.forget a{
+    text-decoration:none;
+    font-weight:650;
+    font-size:17px;
+    color:#5510c1;
+    
+}
+.reg{
+    font-size:11.3px;
+    padding:10px 0px 10px;
+}
+#reg-btn{
+    width:150px;
+    height:35px;
+    border:none;
+    color:white;
+    background-color:#006eda;
+    border-radius:5px;
+    margin:0px 0px 10px;
+}
+#reg-btn:hover{
+    width:148px;
+    height:33px;
+    border:none;
+    color:white;
+    background-color:#006eda;
+    border-radius:5px;
+    margin:0px 0px 10px;
+    transition:0.37s;
+}
+    
+</style>
+</head>
+
+<body>
+    
+    <div class="hedline">
+        <div class="hedline-m">
+        <h2>Hedline</h2>
+        <marquee>
+            শ্রেণির ক্লাস আরম্ভ সংক্রান্ত। *২০২৪-২৫ শিক্ষাবর্ষে একাদশ শ্রেণীর ক্লাস রুটিন।      
+        </marquee>
+        <pre>||Departmental Notice::</pre>
+       </div>
+        <button>Login</button>
+        </div>
+    
+
+<div class="head" style="border:1px solid black; width:100%; height:160px; text-align:center;background-color:#000e4e;color:white;">
+    <img class="logo" src="logo.png" alt="">
+    <h3 style="word-spacing:5px; font-size:38px;margin-right:10%; margin-top:2%;">সরকারি মাতামূহরি কলেজ, বান্দরবন<br /> <span style="font-size:25px;word-spacing:5px;">Government Matamuhuri College, Bandarban<br /> <pre style="font-size:21.5px;">College Code:12555	College EIN:103125</pre></h3>
+</div>
+
+<div class="navbar" style="margin-top:2px; border:none; width:100%; height:60px; background-color:#000e4e;display:flex; align-items:center;">
+    <ul style=" display:flex; justify-content:space-evenly; list-style:none; color:white; padding-left:30px">
+        <li style="padding:20px 20px 20px;">HOME</li>
+        <li style="padding:20px 20px 20px">ABOUT US</li>
+        <li style="padding:20px 20px 20px">ACADEMIC</li>
+        <li style="padding:20px 20px 20px">DEPARTMENT</li>
+        <li style="padding:20px 20px 20px">NOTICE</li>
+        <li style="padding:20px 20px 20px">PAYMENT</li>
+        <li style="padding:20px 20px 20px">RESULT</li>
+        <li style="padding:20px 20px 20px">CONTACT</li>
+    </ul>    
+</div>
+
+<div class="frem-img">
+   <img src="" alt=""> 
+</div>
+
+<div class="picture">
+    <img src="3.png" alt="">
+    <p><strong>Mohammad Rohul Amin</strong><br /> Principal (Previsionary)</p>
+</div>
+
+<div class="event-s">
+ <h2>Events</h2>   
+</div>
+
+<div class="event">
+    <div class="grid">
+       <img src="grid.png" alt="">
+       <p>Sports Event of MC</p> 
+    </div>
+    
+    <div class="grid1">
+        <img src="grid1.png" alt="">
+        <p> কনভেনশন ফটো</p>
+    </div>
+    
+</div>
+
+<div class="event-t">
+    <div class="grid3">
+       <img src="t.png" alt="">
+       <p>কলেজের সম্মানিত শিক্ষকবৃন্দ</p> 
+    </div>
+    
+</div>
+
+<div style="border-top:1px solid black;border:none; width:100%; height:400px;margin-left:0px;margin-top:2%; float:left;background-color:white; ">
+<h1 style="text-align:center;"><u>ABOUT</u> GOVERNMENT MATAMUHURI COLLEGE, BANDARBAN</h1>
+<p style="margin-top:2%; padding-left:2%; width:600px; font-size:23px;color:#767676; font-weight:600; float:left;">Welcome to the official website www.matamuhuricollege.com. It’s gives immense pleasure that, consonance with the, vision 2024 for Bangladesh  login colling for as well as adaptation to m ICT based digitalized global environment, we have been redesigned our website wite all last relevant information about our Institution.Studying Government Matamuhuri College means being part of rice tradition of excellence with highly  qualified faculty  amd terms of background and expertise </p>
+
+<img class="collegegait" src="collegegait.png" alt="">
+
+</div>
+
+<div style="border:1px solid black; width:100%; height:320px;margin-left:0;margin-top:1%; float:left;background-color:#000e4e; color:white;">
+    <div style="color:white;margin-left:10px;font-size:20px;margin-top:10px">
+<p style="font-weight:700;">Powered by</p>
+<p style="margin-top:3px;font-weight:300;">College Students</p>
+<p style="margin-top:10px;font-size:22px;font-weight:700;">Adress</p>
+<p style="margin-top:3px;font-weight:300;">Matamuhuri Government College</p>
+<p style="margin-top:10px;font-weight:700;">Contact Us Now</p>
+<p style="margin-top:3px;font-weight:300;">01538196215</p>
+<p style="margin-top:10px;font-weight:700;">Contact With Us</p>
+<p style="margin-top:3px;">🌏</p>
+</div>
+
+<div style="width:100%; height:70px;margin-top:2%;background-color:#000140;">
+<p style="margin-left:10px; padding-top:20px;"> Students of Matamuhuri College &copy 2024</p>
+</div>
+</body>
+
+</html>
